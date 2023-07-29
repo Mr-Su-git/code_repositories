@@ -2,6 +2,7 @@ package 第二章例题.例题3;
 import java.util.Scanner;
 // 输入:length=所需素数的个数
 // 输出:长度为length的素数表
+// 算法思想:如果x不能整除比它小的任何一个素数,那么它(x)也必定是个素数
 public class example_3 {
     public static void main(String args[]){
         System.out.print("请输入想要获取的素数的个数:") ;
