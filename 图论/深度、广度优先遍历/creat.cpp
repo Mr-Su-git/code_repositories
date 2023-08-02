@@ -13,7 +13,7 @@ struct node_ver{
     node_arc *first_edge ;
 };
 
-// 适用于有向边的图
+// 适用于有向边的图 这里用的邻接表表示数据关系
 class graph{
 public :
     graph() ;
